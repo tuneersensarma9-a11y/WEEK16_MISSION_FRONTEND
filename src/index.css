@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #eef5fb;
+  color: #1f2937;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+input {
+  transition: all 0.3s ease;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eef5fb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1976d2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d47a1;
+}
+
+::selection {
+  background: #1976d2;
+  color: white;
+}
